@@ -1,11 +1,11 @@
 # Site settings
 author: Ryan Altimari
-title: 
+title: Mari's TeCoLife 
 header-img: img/home-bg.png
 email: ryanaltimari8@gmail.com
 copyright_name: Ryan Altimari
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Tech. Coding. And life. A balance of each, and a journey for everyone.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Mari-8
