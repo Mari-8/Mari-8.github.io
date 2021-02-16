@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Reading on Rails"
-date:       2021-02-16 03:49:29 +0000
+date:       2021-02-15 22:49:30 -0500
 permalink:  reading_on_rails
 ---
 
-*
-“One learns from books and example only that certain things can be done. Actual learning requires that you do those things.”*    – **Frank Herbert**
+
+“One learns from books and example only that certain things can be done. Actual learning requires that you do those things.”   – **Frank Herbert**
 
 As I was approaching this project, looking over requirements, and racking My brain for the right idea I found myself going back to the same idea every time. Books! 
 I find a lot of joy in books, It is one of the constants I try and keep throughout the rockiness of life. While everyone's motivation to read or to learn may be different, I know many people enjoy them as much, if not more than I do! 
@@ -77,7 +77,7 @@ Here's a peek inside the books#create action.
 
 When the user hits the "Create book" button on the new book form,  the first thing our create action does is check to see if the input came from the "search for a book" feature, or if the user created a new book manually. If the user searched for the book, we ask that nifty class method above to create the book. If it was a manual creation, we just use rails strong params to create the object instead. 
 
-**Nested routes**
+## Nested routes
 
 When we learned about nested routes, I loved the idea. Seeing that it was a requirement made no difference to me, I was trying it no-matter-what!
 The main nested route I ended up with, was between bookshelves and books. The main route was the new book route for a specific shelf, which ends up as: 
@@ -94,7 +94,7 @@ end
 
 This code gives you access to that nested "new" route, as well as a show and index route for books within shelves. It's a great, simple way to be much more specific about where your routes take you and access specific information through that nested resource. 
 
-**Flash and authorization patterns**
+## Flash and authorization patterns
 
 Instead of wrapping my fields in a "Fields-with-errors" I went with flash again, It makes it so easy to display not only errors but any message to the user. 
 I split this up into two different types of flash messages, "Alert" and "Notice". I used notice for any normal information I needed the user to see. Small things, like "Bookshelf created successfully!". 
@@ -140,7 +140,7 @@ The structure is the same throughout all of the controllers that have to do with
 
 On a side note is a great gem I tried out called 'exception_handler' that lets you easily make a custom error page. It's way better on the design, and user experience. It also allows you to redirect a user back to the homepage, or whatever options you'd like to include, instead of the app breaking when someone goes to a route that doesn't exist. 
 
-**A new look on styling **
+## A new look on styling 
 
 I love the way everything ended up looking. Beforehand I knew styling would be my weakest point, and what I need to focus on improving the most.
 Don't get me wrong, I love my other creations and they have been great markers of my progression through coding... But this had the more professional, sleek look I was going for. I know there is SO much more room to improve.
@@ -197,7 +197,7 @@ overflow-y: scroll;
 
 And lastly, though simple I found the scroll box extremely useful on more than one view. I'm excited to learn more CSS and grow my skills in styling even further, but I'm very happy with how this project turned out looking and feeling in the end. 
 
-**Summary **
+## Summary 
 
 It's impossible to sum up. It's a lot of work creating something of even this scale from scratch, at least until I reach a.
 As the Rails portion of the curriculum comes to an end, after another wild ride full of new information, times of frustration, and of course a new skills to add to my arsenal... The cycle now restarts with Javascript. Exciting as it is nerve-racking, I'm fully ready to be baffled and confused again at first, and once more through consistency and repetition solidify my understanding of another language. 
